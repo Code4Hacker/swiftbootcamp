@@ -8,15 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+    @State var notified: String = "Disabled"
+    @State var disabled: Bool = true
+    var body: some View{
+        VStack{
+            LoginView()
+//            Text("Notification: \(disabled ? "Enabled": "Disabled")")
+//            Toggle(isOn: $disabled, label: {
+//                HStack{
+//                    Image(systemName: "bell.fill")
+//                        .foregroundColor(.green)
+//                    Text("Notification Status")
+//                }
+//            })
+        }.padding()
+        Spacer()
     }
+       
 }
 
 #Preview {

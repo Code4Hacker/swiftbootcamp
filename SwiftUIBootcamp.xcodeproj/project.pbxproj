@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045844F42B9EE0180064753C /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045844F32B9EE0180064753C /* Dashboard.swift */; };
+		04B33F302B8B320600D58E13 /* Level2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B33F2F2B8B320600D58E13 /* Level2.swift */; };
+		04B33F332B8B7C0400D58E13 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B33F322B8B7C0400D58E13 /* Login.swift */; };
+		04B33F352B8B8CD700D58E13 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B33F342B8B8CD700D58E13 /* LoginView.swift */; };
+		04C1290F2B8CABD3003D7C19 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C1290E2B8CABD3003D7C19 /* RealmManager.swift */; };
 		04C8911C2B8A0B340056510C /* SwiftUIBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C8911B2B8A0B340056510C /* SwiftUIBootcampApp.swift */; };
 		04C8911E2B8A0B340056510C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C8911D2B8A0B340056510C /* ContentView.swift */; };
 		04C891202B8A0B390056510C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C8911F2B8A0B380056510C /* Assets.xcassets */; };
@@ -14,6 +19,8 @@
 		04C8912D2B8A0B390056510C /* SwiftUIBootcampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C8912C2B8A0B390056510C /* SwiftUIBootcampTests.swift */; };
 		04C891372B8A0B390056510C /* SwiftUIBootcampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C891362B8A0B390056510C /* SwiftUIBootcampUITests.swift */; };
 		04C891392B8A0B390056510C /* SwiftUIBootcampUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C891382B8A0B390056510C /* SwiftUIBootcampUITestsLaunchTests.swift */; };
+		04C8914E2B8A420B0056510C /* ListFollowCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C8914D2B8A420B0056510C /* ListFollowCard.swift */; };
+		04C891502B8A5B210056510C /* CardProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C8914F2B8A5B210056510C /* CardProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		045844F32B9EE0180064753C /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		04B33F2F2B8B320600D58E13 /* Level2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2.swift; sourceTree = "<group>"; };
+		04B33F322B8B7C0400D58E13 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		04B33F342B8B8CD700D58E13 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		04C1290E2B8CABD3003D7C19 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		04C891182B8A0B340056510C /* SwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C8911B2B8A0B340056510C /* SwiftUIBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootcampApp.swift; sourceTree = "<group>"; };
 		04C8911D2B8A0B340056510C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +56,8 @@
 		04C891322B8A0B390056510C /* SwiftUIBootcampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIBootcampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C891362B8A0B390056510C /* SwiftUIBootcampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootcampUITests.swift; sourceTree = "<group>"; };
 		04C891382B8A0B390056510C /* SwiftUIBootcampUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootcampUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04C8914D2B8A420B0056510C /* ListFollowCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFollowCard.swift; sourceTree = "<group>"; };
+		04C8914F2B8A5B210056510C /* CardProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +85,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04B33F2E2B8B31BA00D58E13 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				04B33F2F2B8B320600D58E13 /* Level2.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		04B33F312B8B7BEC00D58E13 /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				04B33F322B8B7C0400D58E13 /* Login.swift */,
+				04B33F342B8B8CD700D58E13 /* LoginView.swift */,
+			);
+			path = LoginPage;
+			sourceTree = "<group>";
+		};
+		04C1290D2B8CABAB003D7C19 /* RealmManager */ = {
+			isa = PBXGroup;
+			children = (
+				04C1290E2B8CABD3003D7C19 /* RealmManager.swift */,
+			);
+			path = RealmManager;
+			sourceTree = "<group>";
+		};
 		04C8910F2B8A0B340056510C = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +133,16 @@
 		04C8911A2B8A0B340056510C /* SwiftUIBootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				04C1290D2B8CABAB003D7C19 /* RealmManager */,
+				04B33F312B8B7BEC00D58E13 /* LoginPage */,
+				04B33F2E2B8B31BA00D58E13 /* Buttons */,
 				04C8911B2B8A0B340056510C /* SwiftUIBootcampApp.swift */,
+				04C8914D2B8A420B0056510C /* ListFollowCard.swift */,
+				04C8914F2B8A5B210056510C /* CardProfile.swift */,
 				04C8911D2B8A0B340056510C /* ContentView.swift */,
 				04C8911F2B8A0B380056510C /* Assets.xcassets */,
 				04C891212B8A0B390056510C /* Preview Content */,
+				045844F32B9EE0180064753C /* Dashboard.swift */,
 			);
 			path = SwiftUIBootcamp;
 			sourceTree = "<group>";
@@ -215,6 +260,9 @@
 				Base,
 			);
 			mainGroup = 04C8910F2B8A0B340056510C;
+			packageReferences = (
+				04C1290C2B8CAAF8003D7C19 /* XCLocalSwiftPackageReference "../../Downloads/realm-swift-next-major" */,
+			);
 			productRefGroup = 04C891192B8A0B340056510C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +305,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B33F302B8B320600D58E13 /* Level2.swift in Sources */,
+				04C1290F2B8CABD3003D7C19 /* RealmManager.swift in Sources */,
+				04B33F352B8B8CD700D58E13 /* LoginView.swift in Sources */,
 				04C8911E2B8A0B340056510C /* ContentView.swift in Sources */,
+				045844F42B9EE0180064753C /* Dashboard.swift in Sources */,
 				04C8911C2B8A0B340056510C /* SwiftUIBootcampApp.swift in Sources */,
+				04B33F332B8B7C0400D58E13 /* Login.swift in Sources */,
+				04C8914E2B8A420B0056510C /* ListFollowCard.swift in Sources */,
+				04C891502B8A5B210056510C /* CardProfile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +643,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		04C1290C2B8CAAF8003D7C19 /* XCLocalSwiftPackageReference "../../Downloads/realm-swift-next-major" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../Downloads/realm-swift-next-major";
+		};
+/* End XCLocalSwiftPackageReference section */
 	};
 	rootObject = 04C891102B8A0B340056510C /* Project object */;
 }
